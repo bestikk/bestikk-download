@@ -1,5 +1,9 @@
 # Bestikk Download
 
+ifdef::env-github[]
+image:http://img.shields.io/npm/v/bestikk-download.svg[npm version, link=https://www.npmjs.org/package/bestikk-download]
+endif::[]
+
 A simple tool to download files from HTTP or HTTPS.
 
 ## Install
