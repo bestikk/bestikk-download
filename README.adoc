@@ -1,6 +1,7 @@
 # Bestikk Download
 
 ifdef::env-github[]
+image:http://img.shields.io/travis/bestikk/bestikk-download.svg[Travis build status, link=https://travis-ci.org/bestikk/bestikk-download]
 image:http://img.shields.io/npm/v/bestikk-download.svg[npm version, link=https://www.npmjs.org/package/bestikk-download]
 endif::[]
 
