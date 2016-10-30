@@ -1,0 +1,15 @@
+# Bestikk Download
+
+A simple tool to download files from HTTP or HTTPS.
+
+## Install
+
+ $ npm i --save-dev bestikk-download
+
+## Usage
+
+```javascript
+var download = require('bestikk-download');
+
+download.getContentFromURL('https://www.google.fr', 'index.html', callback);
+```

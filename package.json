@@ -1,0 +1,32 @@
+{
+  "name": "bestikk-download",
+  "version": "0.1.0",
+  "description": "A simple tool to download files from HTTP or HTTPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestikk/bestikk-download.git"
+  },
+  "keywords": [
+    "download",
+    "http",
+    "https"
+  ],
+  "author": "Guillaume Grossetie (https://github.com/mogztter)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bestikk/bestikk-download/issues"
+  },
+  "homepage": "https://github.com/bestikk/bestikk-download#readme",
+  "dependencies": {
+    "bestikk-log": "0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "bestikk-fs": "0.1.0"
+  }
+}
