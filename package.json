@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A simple tool to download files from HTTP or HTTPS",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.11"
+  },
   "scripts": {
     "test": "mocha spec/*.js"
   },
@@ -25,8 +28,8 @@
     "bestikk-log": "0.1.0"
   },
   "devDependencies": {
+    "bestikk-fs": "0.1.0",
     "chai": "^3.5.0",
-    "mocha": "^3.1.0",
-    "bestikk-fs": "0.1.0"
+    "mocha": "^5.2.0"
   }
 }

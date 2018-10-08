@@ -14,7 +14,13 @@ A simple tool to download files from HTTP or HTTPS.
 ## Usage
 
 ```javascript
-var download = require('bestikk-download');
+const Download = require('bestikk-download')
 
-download.getContentFromURL('https://www.google.fr', 'index.html', callback);
+const download = new Download({
+  followRedirect: true,
+  maxRedirects: 10
+})
+
+download.getContentFromURL('https://www.google.fr', 'index.html')
+  .then(() => { /* do something */ })
 ```
