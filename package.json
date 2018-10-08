@@ -1,6 +1,6 @@
 {
   "name": "bestikk-download",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple tool to download files from HTTP or HTTPS",
   "main": "index.js",
   "engines": {
